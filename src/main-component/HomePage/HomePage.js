@@ -16,7 +16,7 @@ import BecomeSectionS2 from '../../components/BecomeSectionS2/BecomeSectionS2';
 import MapSection from '../../components/MapSection/MapSection';
 import FooterS3 from '../../components/footerS3/FooterS3';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/logo.png'
 
 const HomePage = () => {
     return (

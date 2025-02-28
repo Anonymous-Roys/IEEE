@@ -63,8 +63,8 @@ const menus = [
 
     {
         id: 3,
-        title: 'Services',
-        link: '/service'
+        title: 'Media',
+        link: '/media'
     },
 
     // {

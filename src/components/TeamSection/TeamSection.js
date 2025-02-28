@@ -45,9 +45,7 @@ const TeamSection = (props) => {
                         ))
                     }
                 </div>
-                <div className="all-btn">
-                    <Link onClick={ClickHandler} to="/volunteer-1" className="theme-btn">All Volunteer</Link>
-                </div>
+              
             </div>
         </section>
     )

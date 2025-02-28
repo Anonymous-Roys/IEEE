@@ -32,12 +32,10 @@ const FooterS3 = () => {
                                 <Link onClick={ClickHandler} to="/" className="logo">
                                     <img src={Logo} alt="" />
                                 </Link>
-                                <p>The world’s first and largest digital market
-                                    for crypto collectibles and non-fungible
-                                    (NFTs). Buy</p>
-                                <span><i className="flaticon-maps-and-flags"></i>86 Road Broklyn Street, 600
+                                <p>The world’</p>
+                                <span><i className="flaticon-maps-and-flags"></i>accra
                                     <br/> Ghana</span>
-                                <span><i className="flaticon-mail"></i>needhelp@company.com</span>
+                                <span><i className="flaticon-mail"></i>.com</span>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">

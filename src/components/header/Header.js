@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
-import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
 import Midbar from '../Midbar/Midbar';
 
 
@@ -54,10 +53,10 @@ const Header = (props) => {
                                 <MobileMenu />
                             </div>
                             <div className="col-lg-0 col-md-6 col-6">
-                                <div className="navbar-header">
+                                {/* <div className="navbar-header">
                                     <Link onClick={ClickHandler} className="navbar-brand" to="/home"><img src={props.Logo}
                                         alt="logo" className='w-25'/></Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-lg-7 col-md-1 col-1">
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
@@ -68,15 +67,7 @@ const Header = (props) => {
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">About</Link></li>
                                         <li><Link onClick={ClickHandler} to="/media">Media</Link></li>
-                                        {/* <li><Link onClick={ClickHandler} to="/donate">Donate</Link></li> */}
-                                        
-                                        {/* <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/service">services</Link>
-                                        </li> */}
                                        
-                                        {/* <li><Link onClick={ClickHandler} to="/blog">Blog</Link></li> */}
-                                        
-                                        {/* <li><Link onClick={ClickHandler} to="/contact">contact</Link></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -100,7 +91,7 @@ const Header = (props) => {
                                     </div>
                                     
                                     <div className="close-form">
-                                        <Link onClick={ClickHandler} className="theme-btn" to="/donate">Donate now</Link>
+                                        <Link onClick={ClickHandler} className="theme-btn" to="/media">Know more</Link>
                                     </div>
                                 </div>
                             </div>

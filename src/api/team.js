@@ -37,26 +37,7 @@ const Teams = [
          instagram: '#'
     },
     
-    {
-        id: '3',
-        title: 'Alice Esson',
-        subtitle: 'Development Officer',
-        slug: 'William-Watson',
-        timg: timg4,
-        Sime: Stime4,
-        linkedIn: '#',
-        instagram: '#'
-    },
-    {
-        id: '5',
-        title: 'Ewura Esi Aboagye',
-        subtitle: 'General Secretary',
-        slug: 'William-Watson2',
-        timg: timg5,
-        Sime: Stime5,
-        linkedIn: '#',
-        instagram: '#'
-    },
+   
    
 
 ]
